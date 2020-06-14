@@ -52,8 +52,7 @@ while True:
         else:
             content = "5g"
 
-        tweet = f"{content} {link}"
-        status = t.update_status(tweet)
+        status = t.update_status(content, attachment_url=link)
         
         # Inverse the previous value, so that we can alternate next time.
         was_5g = not was_5g
