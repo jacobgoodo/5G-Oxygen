@@ -1,3 +1,8 @@
+# IDEs
 .idea
 .nova
+.vscode
+
+# Data storage
 config.json
+state.json
